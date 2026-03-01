@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "title": "Exponent - Tokenized Financing for Super-Individuals",
+    "description": "Make productivity a currency. A tokenized financing platform based on productivity anchoring, helping super-individuals raise funds for business expansion."
+  },
+  "nav": {
+    "home": "Home",
+    "explore": "Explore Projects",
+    "myProjects": "My Projects",
+    "help": "Help Center",
+    "notifications": "Notifications",
+    "connectWallet": "Connect Wallet",
+    "login": "Sign In",
+    "logout": "Sign Out",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "hero": {
+    "title": "Make Productivity a Currency",
+    "subtitle": "Exponent - Tokenized Financing Platform for Super-Individuals",
+    "description": "Helping super sellers, independent developers, and content creators raise funds for business expansion",
+    "ctaPrimary": "Launch My Project",
+    "ctaSecondary": "Explore Projects"
+  },
+  "features": {
+    "title": "Core Concepts",
+    "subtitle": "Moving away from pure financial speculation, establishing a value loop based on actual business revenue",
+    "tokenGenesis": {
+      "title": "Token Genesis",
+      "description": "Smart token issuance based on actual business needs"
+    },
+    "incubation": {
+      "title": "Incubation",
+      "description": "15-day bonding curve subscription period"
+    },
+    "productivity": {
+      "title": "Productivity Anchoring",
+      "description": "Revenue confirmation-driven value growth"
+    }
+  },
+  "dlp": {
+    "title": "Dynamic Liquidity Protection (DLP)",
+    "subtitle": "Intelligently calculating financing scale and liquidity ratios to protect both investors and founders",
+    "formula": "Core Formula",
+    "fundingAmount": "Funding Amount (F)",
+    "selectRole": "Select Role Template",
+    "results": "Calculation Results",
+    "funding": "Funding Need (F)",
+    "fundingDesc": "Your business capital",
+    "hardCap": "Hard Cap (H)",
+    "hardCapDesc": "Includes liquidity reserve + sale allocation",
+    "pool": "Pool Funds (L)",
+    "poolDesc": "Liquidity injected at graduation"
+  },
+  "roleCards": {
+    "title": "Choose Your Role",
+    "subtitle": "Different types of super-individuals apply different productivity coefficients and capital allocation strategies",
+    "gamma": "Productivity Coefficient",
+    "audiences": "Target Audience",
+    "fundingTraits": "Capital Traits",
+    "lpLock": "LP Lock",
+    "superSeller": {
+      "title": "Super Seller",
+      "subtitle": "Super Seller",
+      "audiences": ["Insurance Agents", "Real Estate Agents", "High-end Sales Consultants"],
+      "fundingTraits": "Fast cash conversion",
+      "lpLock": "Less (more funds for business)"
+    },
+    "solopreneur": {
+      "title": "Solopreneur / AI",
+      "subtitle": "Solopreneur",
+      "audiences": ["Independent Developers", "AI Entrepreneurs", "SaaS Developers"],
+      "fundingTraits": "Medium R&D cycle",
+      "lpLock": "Balanced allocation"
+    },
+    "creator": {
+      "title": "Content Creator",
+      "subtitle": "Content Creator",
+      "audiences": ["Influencers / KOLs", "YouTubers", "Self-media Creators"],
+      "fundingTraits": "Unstable cash flow",
+      "lpLock": "More (consensus-driven)"
+    }
+  },
+  "stats": {
+    "title": "Platform Overview",
+    "totalProjects": "Total Projects",
+    "tvl": "Total Value Locked",
+    "graduated": "Graduated Projects",
+    "avgReturn": "Avg. Investor Return"
+  },
+  "projects": {
+    "title": "Latest Projects",
+    "subtitle": "Explore super-individual projects currently raising funds",
+    "viewAll": "View All",
+    "progress": "Progress",
+    "daysLeft": "days left",
+    "investors": "investors",
+    "status": {
+      "subscribing": "Subscribing",
+      "graduated": "Graduated"
+    }
+  },
+  "roles": {
+    "superSeller": {
+      "title": "Super Seller",
+      "tags": "Insurance, Real Estate, High-end Sales",
+      "feature": "Fast cash conversion | Less LP locked, more withdrawal",
+      "gamma": "γ = 1.8"
+    },
+    "solopreneur": {
+      "title": "Solopreneur / AI",
+      "tags": "Developers, AI Entrepreneurs, SaaS Builders",
+      "feature": "Medium R&D cycle | Balanced allocation",
+      "gamma": "γ = 1.2"
+    },
+    "creator": {
+      "title": "Content Creator",
+      "tags": "KOLs, YouTubers, Self-media",
+      "feature": "Unstable cash flow | More LP locked",
+      "gamma": "γ = 0.8"
+    }
+  },
+  "onboarding": {
+    "title": "Create Your Project",
+    "steps": {
+      "identity": "Identity",
+      "role": "Role Selection",
+      "requirements": "Requirements",
+      "generate": "Generate Plan"
+    },
+    "invitation": {
+      "title": "Enter Invitation Code",
+      "placeholder": "Enter your invitation code (e.g., EXPO2025)",
+      "verify": "Verify",
+      "verified": "Verified",
+      "invalid": "Invalid invitation code"
+    },
+    "identity": {
+      "title": "Identity Verification",
+      "socialLogin": "Connect Social Account",
+      "twitter": "Twitter/X",
+      "google": "Google",
+      "email": "Email",
+      "avatar": "Upload Avatar",
+      "username": "Username",
+      "usernameCheck": "Checking availability..."
+    },
+    "role": {
+      "title": "Select Your Role",
+      "description": "Choose the role that best describes your business type"
+    },
+    "requirements": {
+      "title": "Funding Requirements",
+      "amount": "How much do you need?",
+      "min": "$5,000",
+      "max": "$500,000",
+      "usage": "Fund Usage",
+      "usagePlaceholder": "Describe how you'll use the funds"
+    }
+  },
+  "footer": {
+    "about": "About Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "disclaimer": "Disclaimer",
+    "community": "Community",
+    "docs": "Documentation",
+    "copyright": "© 2025 Exponent. All rights reserved.",
+    "explore": "Explore Projects",
+    "help": "Help Center"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "system": "System"
+  },
+  "language": {
+    "title": "Language",
+    "select": "Select Language"
+  },
+  "common": {
+    "loading": "Loading...",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info"
+  }
+}

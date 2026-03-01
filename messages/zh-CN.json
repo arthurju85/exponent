@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "title": "Exponent - 超级个体的代币化融资平台",
+    "description": "让生产力成为货币。基于生产力锚定的代币化融资平台，帮助超级个体完成业务扩张的资金募集。"
+  },
+  "nav": {
+    "home": "首页",
+    "explore": "探索项目",
+    "myProjects": "我的项目",
+    "help": "帮助中心",
+    "notifications": "消息",
+    "connectWallet": "连接钱包",
+    "login": "登录",
+    "logout": "退出",
+    "profile": "个人资料",
+    "settings": "设置"
+  },
+  "hero": {
+    "title": "让生产力成为货币",
+    "subtitle": "Exponent - 超级个体的代币化融资平台",
+    "description": "帮助超级销售、独立开发者、内容创作者完成业务扩张的资金募集",
+    "ctaPrimary": "启动我的项目",
+    "ctaSecondary": "探索项目"
+  },
+  "features": {
+    "title": "核心概念",
+    "subtitle": "摒弃纯金融博弈，建立基于实际业务营收的价值闭环",
+    "tokenGenesis": {
+      "title": "代币创世",
+      "description": "基于实际业务需求的智能发币，DLP模型自动计算最优融资方案与流动性配比。"
+    },
+    "incubation": {
+      "title": "内盘孵化",
+      "description": "15天联合曲线认购期，价格随需求动态上升，早期投资者享受价格优势。"
+    },
+    "productivity": {
+      "title": "生产力锚定",
+      "description": "营收确权驱动的价值增长，通过OCR报销系统确保资金用于实际业务生产。"
+    }
+  },
+  "dlp": {
+    "title": "动态流动性保护模型 (DLP)",
+    "subtitle": "智能计算融资规模与流动性配比，保护投资者与创始人双方利益",
+    "formula": "核心公式",
+    "fundingAmount": "融资需求 (F)",
+    "selectRole": "选择角色模板",
+    "results": "计算结果",
+    "funding": "融资需求 (F)",
+    "fundingDesc": "你的业务资金",
+    "hardCap": "募集硬顶 (H)",
+    "hardCapDesc": "包含流动性储备 + 发售额度",
+    "pool": "入池资金 (L)",
+    "poolDesc": "毕业时注入 Uniswap 的流动性"
+  },
+  "roleCards": {
+    "title": "选择你的角色",
+    "subtitle": "不同类型的超级个体适用不同的生产力系数与资金配置策略",
+    "gamma": "生产力系数",
+    "audiences": "适用人群",
+    "fundingTraits": "资金特点",
+    "lpLock": "LP 锁定",
+    "superSeller": {
+      "title": "超级销售",
+      "subtitle": "Super Seller",
+      "audiences": ["保险代理人", "房产中介", "高端销售顾问"],
+      "fundingTraits": "现金转化极快",
+      "lpLock": "较少 (更多资金用于业务)"
+    },
+    "solopreneur": {
+      "title": "独立开发 / AI",
+      "subtitle": "Solopreneur",
+      "audiences": ["独立程序员", "AI 创业者", "SaaS 开发者"],
+      "fundingTraits": "研发周期中等",
+      "lpLock": "平衡配置"
+    },
+    "creator": {
+      "title": "内容创作者",
+      "subtitle": "Content Creator",
+      "audiences": ["网红 / KOL", "YouTuber", "自媒体创作者"],
+      "fundingTraits": "现金流不稳定",
+      "lpLock": "较多 (靠共识驱动)"
+    }
+  },
+  "stats": {
+    "title": "平台数据总览",
+    "totalProjects": "累计融资项目",
+    "tvl": "总锁定流动性 (TVL)",
+    "graduated": "已毕业项目",
+    "avgReturn": "平均投资者回报率"
+  },
+  "projects": {
+    "title": "最新项目",
+    "subtitle": "探索正在募资中的超级个体项目",
+    "viewAll": "查看全部",
+    "progress": "募集进度",
+    "daysLeft": "剩余天数",
+    "investors": "投资者"
+  },
+  "onboarding": {
+    "title": "创建你的项目",
+    "steps": {
+      "identity": "身份认证",
+      "role": "角色选择",
+      "requirements": "填写需求",
+      "generate": "生成方案"
+    },
+    "invitation": {
+      "title": "输入邀请码",
+      "placeholder": "请输入邀请码（如：EXPO2025）",
+      "verify": "验证",
+      "verified": "验证通过",
+      "invalid": "无效的邀请码"
+    },
+    "identity": {
+      "title": "身份认证",
+      "socialLogin": "绑定社交账号",
+      "twitter": "Twitter/X",
+      "google": "Google",
+      "email": "邮箱",
+      "avatar": "上传头像",
+      "username": "用户名",
+      "usernameCheck": "检查可用性..."
+    },
+    "role": {
+      "title": "选择你的角色",
+      "description": "选择最符合你业务类型的角色"
+    },
+    "requirements": {
+      "title": "融资需求",
+      "amount": "你需要多少资金？",
+      "min": "$5,000",
+      "max": "$500,000",
+      "usage": "资金用途",
+      "usagePlaceholder": "描述你将如何使用这些资金"
+    }
+  },
+  "footer": {
+    "about": "关于我们",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "disclaimer": "免责说明",
+    "community": "社区",
+    "docs": "文档",
+    "copyright": "© 2025 Exponent. 保留所有权利。",
+    "explore": "探索项目",
+    "help": "帮助中心"
+  },
+  "theme": {
+    "light": "浅色模式",
+    "dark": "深色模式",
+    "system": "跟随系统"
+  },
+  "language": {
+    "title": "语言",
+    "select": "选择语言"
+  },
+  "common": {
+    "loading": "加载中...",
+    "submit": "提交",
+    "cancel": "取消",
+    "confirm": "确认",
+    "save": "保存",
+    "edit": "编辑",
+    "delete": "删除",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "close": "关闭",
+    "success": "成功",
+    "error": "错误",
+    "warning": "警告",
+    "info": "信息"
+  }
+}

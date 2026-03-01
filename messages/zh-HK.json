@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "title": "Exponent - 超級個體的代幣化融資平台",
+    "description": "讓生產力成為貨幣。基於生產力錨定的代幣化融資平台，幫助超級個體完成業務擴張的資金募集。"
+  },
+  "nav": {
+    "home": "首頁",
+    "explore": "探索項目",
+    "myProjects": "我的項目",
+    "help": "幫助中心",
+    "notifications": "消息",
+    "connectWallet": "連接錢包",
+    "login": "登入",
+    "logout": "登出",
+    "profile": "個人資料",
+    "settings": "設定"
+  },
+  "hero": {
+    "title": "讓生產力成為貨幣",
+    "subtitle": "Exponent - 超級個體的代幣化融資平台",
+    "description": "幫助超級銷售、獨立開發者、內容創作者完成業務擴張的資金募集",
+    "ctaPrimary": "啟動我的項目",
+    "ctaSecondary": "探索項目"
+  },
+  "features": {
+    "title": "核心概念",
+    "subtitle": "摒棄純金融博弈，建立基於實際業務營收的價值閉環",
+    "tokenGenesis": {
+      "title": "代幣創世",
+      "description": "基於實際業務需求的智能發幣，DLP模型自動計算最優融資方案與流動性配比。"
+    },
+    "incubation": {
+      "title": "內盤孵化",
+      "description": "15天聯合曲線認購期，價格隨需求動態上升，早期投資者享受價格優勢。"
+    },
+    "productivity": {
+      "title": "生產力錨定",
+      "description": "營收確權驅動的價值增長，通過OCR報銷系統確保資金用於實際業務生產。"
+    }
+  },
+  "dlp": {
+    "title": "動態流動性保護模型 (DLP)",
+    "subtitle": "智能計算融資規模與流動性配比，保護投資者與創始人雙方利益",
+    "formula": "核心公式",
+    "fundingAmount": "融資需求 (F)",
+    "selectRole": "選擇角色模板",
+    "results": "計算結果",
+    "funding": "融資需求 (F)",
+    "fundingDesc": "你的業務資金",
+    "hardCap": "募集硬頂 (H)",
+    "hardCapDesc": "包含流動性儲備 + 發售額度",
+    "pool": "入池資金 (L)",
+    "poolDesc": "畢業時注入 Uniswap 的流動性"
+  },
+  "roleCards": {
+    "title": "選擇你的角色",
+    "subtitle": "不同類型的超級個體適用不同的生產力系數與資金配置策略",
+    "gamma": "生產力系數",
+    "audiences": "適用人群",
+    "fundingTraits": "資金特點",
+    "lpLock": "LP 鎖定",
+    "superSeller": {
+      "title": "超級銷售",
+      "subtitle": "Super Seller",
+      "audiences": ["保險代理人", "房產中介", "高端銷售顧問"],
+      "fundingTraits": "現金轉化極快",
+      "lpLock": "較少 (更多資金用於業務)"
+    },
+    "solopreneur": {
+      "title": "獨立開發 / AI",
+      "subtitle": "Solopreneur",
+      "audiences": ["獨立程式設計師", "AI 創業者", "SaaS 開發者"],
+      "fundingTraits": "研發週期中等",
+      "lpLock": "平衡配置"
+    },
+    "creator": {
+      "title": "內容創作者",
+      "subtitle": "Content Creator",
+      "audiences": ["網紅 / KOL", "YouTuber", "自媒體創作者"],
+      "fundingTraits": "現金流不穩定",
+      "lpLock": "較多 (靠共識驅動)"
+    }
+  },
+  "stats": {
+    "title": "平台數據總覽",
+    "totalProjects": "累計融資項目",
+    "tvl": "總鎖定流動性 (TVL)",
+    "graduated": "已畢業項目",
+    "avgReturn": "平均投資者回報率"
+  },
+  "projects": {
+    "title": "最新項目",
+    "subtitle": "探索正在募資中的超級個體項目",
+    "viewAll": "查看全部",
+    "progress": "募集進度",
+    "daysLeft": "剩餘天數",
+    "investors": "投資者"
+  },
+  "onboarding": {
+    "title": "創建你的項目",
+    "steps": {
+      "identity": "身份認證",
+      "role": "角色選擇",
+      "requirements": "填寫需求",
+      "generate": "生成方案"
+    },
+    "invitation": {
+      "title": "輸入邀請碼",
+      "placeholder": "請輸入邀請碼（如：EXPO2025）",
+      "verify": "驗證",
+      "verified": "驗證通過",
+      "invalid": "無效的邀請碼"
+    },
+    "identity": {
+      "title": "身份認證",
+      "socialLogin": "綁定社交帳號",
+      "twitter": "Twitter/X",
+      "google": "Google",
+      "email": "電子郵件",
+      "avatar": "上傳頭像",
+      "username": "使用者名稱",
+      "usernameCheck": "檢查可用性..."
+    },
+    "role": {
+      "title": "選擇你的角色",
+      "description": "選擇最符合你業務類型的角色"
+    },
+    "requirements": {
+      "title": "融資需求",
+      "amount": "你需要多少資金？",
+      "min": "$5,000",
+      "max": "$500,000",
+      "usage": "資金用途",
+      "usagePlaceholder": "描述你將如何使用這些資金"
+    }
+  },
+  "footer": {
+    "about": "關於我們",
+    "privacy": "隱私政策",
+    "terms": "服務條款",
+    "disclaimer": "免責聲明",
+    "community": "社區",
+    "docs": "文件",
+    "copyright": "© 2025 Exponent. 保留所有權利。",
+    "explore": "探索項目",
+    "help": "幫助中心"
+  },
+  "theme": {
+    "light": "淺色模式",
+    "dark": "深色模式",
+    "system": "跟隨系統"
+  },
+  "language": {
+    "title": "語言",
+    "select": "選擇語言"
+  },
+  "common": {
+    "loading": "載入中...",
+    "submit": "提交",
+    "cancel": "取消",
+    "confirm": "確認",
+    "save": "儲存",
+    "edit": "編輯",
+    "delete": "刪除",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "close": "關閉",
+    "success": "成功",
+    "error": "錯誤",
+    "warning": "警告",
+    "info": "資訊"
+  }
+}

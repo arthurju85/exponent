@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "title": "Exponent - スーパー個人のトークン化融資プラットフォーム",
+    "description": "生産性を通貨に。生産性アンカーに基づくトークン化融資プラットフォームで、スーパー個人の事業拡大資金調達を支援します。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "explore": "プロジェクトを探す",
+    "myProjects": "マイプロジェクト",
+    "help": "ヘルプセンター",
+    "notifications": "通知",
+    "connectWallet": "ウォレット接続",
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "profile": "プロフィール",
+    "settings": "設定"
+  },
+  "hero": {
+    "title": "生産性を通貨に",
+    "subtitle": "Exponent - スーパー個人のトークン化融資プラットフォーム",
+    "description": "スーパーセールス、独立開発者、コンテンツクリエイターの事業拡大資金調達を支援",
+    "ctaPrimary": "プロジェクトを開始",
+    "ctaSecondary": "プロジェクトを探す"
+  },
+  "features": {
+    "title": "コアコンセプト",
+    "subtitle": "純粋な金融投機から離れ、実際のビジネス収益に基づく価値循環を構築",
+    "tokenGenesis": {
+      "title": "トークン創世",
+      "description": "実際のビジネスニーズに基づくスマートトークン発行、DLPモデルが最適な融資プランと流動性配分を自動計算。"
+    },
+    "incubation": {
+      "title": "インキュベーション",
+      "description": "15日間のボンディングカーブ購読期間、需要に応じて価格が動的に上昇し、早期投資家は価格優位性を享受。"
+    },
+    "productivity": {
+      "title": "生産性アンカー",
+      "description": "収益確認主導の価値成長、OCR経費精算システムを通じて資金が実際のビジネス生産に使用されることを保証。"
+    }
+  },
+  "dlp": {
+    "title": "動的流動性保護モデル (DLP)",
+    "subtitle": "融資規模と流動性配分を智能的に計算し、投資家と創業者の双方の利益を保護",
+    "formula": "コア公式",
+    "fundingAmount": "融資需要 (F)",
+    "selectRole": "役割テンプレートを選択",
+    "results": "計算結果",
+    "funding": "融資需要 (F)",
+    "fundingDesc": "あなたのビジネス資金",
+    "hardCap": "募集ハードキャップ (H)",
+    "hardCapDesc": "流動性準備金 + 販売割り当てを含む",
+    "pool": "プール資金 (L)",
+    "poolDesc": "卒業時に Uniswap に注入される流動性"
+  },
+  "roleCards": {
+    "title": "役割を選択",
+    "subtitle": "異なるタイプのスーパー個人には、異なる生産性係数と資金配分戦略が適用される",
+    "gamma": "生産性係数",
+    "audiences": "対象者",
+    "fundingTraits": "資金特徴",
+    "lpLock": "LP ロック",
+    "superSeller": {
+      "title": "スーパーセールス",
+      "subtitle": "Super Seller",
+      "audiences": ["保険代理店", "不動産仲介", "ハイエンド営業コンサルタント"],
+      "fundingTraits": "キャッシュ変換が極めて高速",
+      "lpLock": "少なめ（より多くの資金をビジネスに使用）"
+    },
+    "solopreneur": {
+      "title": "独立開発 / AI",
+      "subtitle": "Solopreneur",
+      "audiences": ["独立プログラマー", "AI 起業家", "SaaS 開発者"],
+      "fundingTraits": "中程度の開発サイクル",
+      "lpLock": "バランスの取れた配分"
+    },
+    "creator": {
+      "title": "コンテンツクリエイター",
+      "subtitle": "Content Creator",
+      "audiences": ["インフルエンサー / KOL", "YouTuber", "個人メディアクリエイター"],
+      "fundingTraits": "不安定なキャッシュフロー",
+      "lpLock": "多め（コンセンサス主導）"
+    }
+  },
+  "stats": {
+    "title": "プラットフォーム概要",
+    "totalProjects": "累計融資プロジェクト",
+    "tvl": "総ロック流動性 (TVL)",
+    "graduated": "卒業プロジェクト",
+    "avgReturn": "平均投資家リターン率"
+  },
+  "projects": {
+    "title": "最新プロジェクト",
+    "subtitle": "現在資金調達中のスーパー個人プロジェクトを探索",
+    "viewAll": "すべて表示",
+    "progress": "募集進捗",
+    "daysLeft": "残り日数",
+    "investors": "投資家",
+    "status": {
+      "subscribing": "購読中",
+      "graduated": "卒業済み"
+    }
+  },
+  "onboarding": {
+    "title": "プロジェクトを作成",
+    "steps": {
+      "identity": "身份認証",
+      "role": "役割選択",
+      "requirements": "要件入力",
+      "generate": "プラン生成"
+    },
+    "invitation": {
+      "title": "招待コードを入力",
+      "placeholder": "招待コードを入力してください（例：EXPO2025）",
+      "verify": "検証",
+      "verified": "検証完了",
+      "invalid": "無効な招待コード"
+    },
+    "identity": {
+      "title": "身份認証",
+      "socialLogin": "ソーシャルアカウントを接続",
+      "twitter": "Twitter/X",
+      "google": "Google",
+      "email": "メール",
+      "avatar": "アバターをアップロード",
+      "username": "ユーザー名",
+      "usernameCheck": "利用可能性を確認中..."
+    },
+    "role": {
+      "title": "役割を選択",
+      "description": "ビジネスタイプに最も適した役割を選択してください"
+    },
+    "requirements": {
+      "title": "資金調達要件",
+      "amount": "いくら必要ですか？",
+      "min": "$5,000",
+      "max": "$500,000",
+      "usage": "資金用途",
+      "usagePlaceholder": "資金の使い道を説明してください"
+    }
+  },
+  "footer": {
+    "about": "私たちについて",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "disclaimer": "免責事項",
+    "community": "コミュニティ",
+    "docs": "ドキュメント",
+    "copyright": "© 2025 Exponent. All rights reserved.",
+    "explore": "プロジェクトを探す",
+    "help": "ヘルプセンター"
+  },
+  "theme": {
+    "light": "ライトモード",
+    "dark": "ダークモード",
+    "system": "システムに従う"
+  },
+  "language": {
+    "title": "言語",
+    "select": "言語を選択"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "submit": "送信",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "save": "保存",
+    "edit": "編集",
+    "delete": "削除",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "close": "閉じる",
+    "success": "成功",
+    "error": "エラー",
+    "warning": "警告",
+    "info": "情報"
+  }
+}
