@@ -19,7 +19,6 @@ const roleOptions = [
     icon: Briefcase,
     title: "超级销售",
     subtitle: "Super Seller",
-    gamma: 1.8,
     audiences: ["保险、房产、高端顾问"],
     fundingTraits: "现金转化极快",
     lpLock: "较少 (更多资金用于业务)",
@@ -32,7 +31,6 @@ const roleOptions = [
     icon: Code,
     title: "独立开发 / AI",
     subtitle: "Solopreneur",
-    gamma: 1.2,
     audiences: ["程序员、AI创业者、SaaS开发者"],
     fundingTraits: "研发周期中等",
     lpLock: "平衡配置",
@@ -45,7 +43,6 @@ const roleOptions = [
     icon: Video,
     title: "内容创作者",
     subtitle: "Content Creator",
-    gamma: 0.8,
     audiences: ["网红、YouTuber、自媒体"],
     fundingTraits: "现金流不稳定",
     lpLock: "较多 (靠共识驱动)",
@@ -296,7 +293,6 @@ export default function OnboardingPage() {
                   <h3 className="text-lg font-bold text-foreground">{role.title}</h3>
                   <p className="mb-3 text-xs text-muted-foreground">{role.subtitle}</p>
                   <Badge variant="secondary" className="mb-4 font-mono text-xs">
-                    &gamma; = {role.gamma}
                   </Badge>
                   <ul className="mb-4 flex flex-col gap-1">
                     {role.audiences.map((a) => (

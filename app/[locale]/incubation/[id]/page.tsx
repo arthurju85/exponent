@@ -147,7 +147,7 @@ export default function IncubationDashboardPage() {
               <p className="text-sm text-muted-foreground">InsureMax Pro ($IMP) - 公售期</p>
             </div>
           </div>
-          <Badge className="bg-primary/20 text-primary border-0">第 12/15 天</Badge>
+          <Badge className="bg-primary/20 text-primary border-0">第 12/90 天</Badge>
         </div>
 
         {/* Countdown */}
@@ -184,7 +184,7 @@ export default function IncubationDashboardPage() {
 
               <div className="mt-4 flex justify-between text-xs text-muted-foreground">
                 <span>价格区间: $0.008 → $0.045</span>
-                <span>当前阶段: 公售期 (第12/15天)</span>
+                <span>当前阶段: 公售期 (第12/90天)</span>
               </div>
             </div>
           </div>

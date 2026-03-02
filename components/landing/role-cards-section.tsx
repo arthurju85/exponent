@@ -7,7 +7,6 @@ const roles = [
   {
     icon: Briefcase,
     key: "superSeller",
-    gamma: 1.8,
     gradient: "from-blue-500/10 to-blue-600/10",
     borderHover: "hover:border-blue-500/40",
     iconBg: "bg-blue-500/20",
@@ -16,7 +15,6 @@ const roles = [
   {
     icon: Code,
     key: "solopreneur",
-    gamma: 1.2,
     gradient: "from-emerald-500/10 to-green-600/10",
     borderHover: "hover:border-emerald-500/40",
     iconBg: "bg-emerald-500/20",
@@ -25,7 +23,6 @@ const roles = [
   {
     icon: Video,
     key: "creator",
-    gamma: 0.8,
     gradient: "from-amber-500/10 to-orange-600/10",
     borderHover: "hover:border-amber-500/40",
     iconBg: "bg-amber-500/20",
@@ -63,10 +60,6 @@ export function RoleCardsSection() {
                 <h3 className="text-xl font-bold text-foreground">{t(`${role.key}.title`)}</h3>
                 <p className="mb-4 text-sm text-muted-foreground">{t(`${role.key}.subtitle`)}</p>
 
-                <div className="mb-6 rounded-lg bg-secondary px-3 py-2">
-                  <span className="text-xs text-muted-foreground">{t("gamma")}</span>
-                  <span className="ml-2 font-mono text-lg font-bold text-primary">&gamma; = {role.gamma}</span>
-                </div>
 
                 <div className="mb-6">
                   <p className="mb-2 text-sm font-medium text-foreground">{t("audiences")}</p>

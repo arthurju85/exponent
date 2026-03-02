@@ -5,16 +5,17 @@ import { useTranslations } from "next-intl"
 import { Slider } from "@/components/ui/slider"
 
 const roles = [
-  { key: "superSeller", gamma: 1.8, color: "bg-blue-500" },
-  { key: "solopreneur", gamma: 1.2, color: "bg-emerald-500" },
-  { key: "creator", gamma: 0.8, color: "bg-amber-500" },
+  { key: "superSeller", color: "bg-blue-500" },
+  { key: "solopreneur", color: "bg-emerald-500" },
+  { key: "creator", color: "bg-amber-500" },
 ]
 
-function calculateDLP(F: number, gamma: number) {
-  const beta = 0.3
+function calculateDLP(F: number) {
+  const beta = 0.25
   const Lmin = 5000
-  const H = F * (1 + beta + beta * gamma)
-  const L = Math.max(Lmin, beta * H, H / (1 + gamma * (F / H)))
+  // 新简化公式：L = max(L_min, F × β), H = F + L
+  const L = Math.max(Lmin, F * beta)
+  const H = F + L
   return { H: Math.round(H), L: Math.round(L) }
 }
 
@@ -25,8 +26,7 @@ export function DLPSection() {
   const [selectedRole, setSelectedRole] = useState(0)
 
   const F = fundingAmount[0]
-  const gamma = roles[selectedRole].gamma
-  const { H, L } = calculateDLP(F, gamma)
+  const { H, L } = calculateDLP(F)
 
   return (
     <section className="px-6 py-24">
@@ -48,9 +48,13 @@ export function DLPSection() {
               <div className="font-mono text-lg text-foreground">
                 <span className="text-primary">L</span> = max(
                 <span className="text-blue-400">L<sub>min</sub></span>,{" "}
-                <span className="text-emerald-400">&beta; &middot; H</span>,{" "}
-                <span className="text-amber-400">H / (1 + &gamma; &middot; F/H)</span>
+                <span className="text-emerald-400">F &times; &beta;</span>
                 )
+              </div>
+              <div className="font-mono text-lg text-foreground mt-2">
+                <span className="text-primary">H</span> = {" "}
+                <span className="text-blue-400">F</span> + {" "}
+                <span className="text-emerald-400">L</span>
               </div>
             </div>
 
@@ -92,10 +96,7 @@ export function DLPSection() {
                     }`}
                   >
                     <div className="font-medium">{tr(`${role.key}.title`)}</div>
-                    <div className="mt-1 font-mono text-xs text-muted-foreground">
-                      &gamma; = {role.gamma}
-                    </div>
-                  </button>
+                        </button>
                 ))}
               </div>
             </div>
