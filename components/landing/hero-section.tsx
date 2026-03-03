@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react"
 import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Sparkles } from "lucide-react"
+import { Sparkles } from "lucide-react"
 import { Link } from "@/i18n/routing"
 
 function AnimatedBackground() {
@@ -97,41 +97,46 @@ export function HeroSection() {
   const t = useTranslations('hero')
 
   return (
-    <section className="relative flex min-h-[90vh] items-center justify-center overflow-hidden px-6 pt-20">
-      <AnimatedBackground />
-      <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-transparent to-background" />
+    <>
+      <section className="relative flex min-h-[90vh] items-center justify-center overflow-hidden px-6 pt-20">
+        <AnimatedBackground />
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-transparent to-background" />
 
-      <div className="relative z-10 mx-auto max-w-4xl text-center">
-        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5">
-          <Sparkles className="h-4 w-4 text-primary" />
-          <span className="text-sm text-primary">Productivity-Anchored Value System</span>
+        <div className="relative z-10 mx-auto max-w-4xl text-center">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5">
+            <Sparkles className="h-4 w-4 text-primary" />
+            <span className="text-sm text-primary">{t('subtitle')}</span>
+          </div>
+
+          <h1 className="mb-4 text-balance text-4xl font-bold tracking-tight text-foreground md:text-6xl lg:text-7xl">
+            {t('title').split(' ').slice(0, -1).join(' ')}
+            <span className="bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">
+              {' '}{t('title').split(' ').slice(-1)[0]}
+            </span>
+          </h1>
+
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1">
+            <span className="text-xs text-amber-500 font-medium">{t('betaBadge')}</span>
+          </div>
+
+          <p className="mx-auto mb-10 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
+            {t('description')}
+          </p>
+
+          <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <Link href="/onboarding">
+              <Button size="lg" className="gap-2 bg-primary px-8 text-primary-foreground hover:bg-primary/90">
+                {t('ctaPrimary')}
+              </Button>
+            </Link>
+            <Link href="/explore">
+              <Button size="lg" variant="outline" className="border-border px-8 text-foreground hover:bg-secondary">
+                {t('ctaSecondary')}
+              </Button>
+            </Link>
+          </div>
         </div>
-
-        <h1 className="mb-6 text-balance text-4xl font-bold tracking-tight text-foreground md:text-6xl lg:text-7xl">
-          {t('title').split(' ').slice(0, -1).join(' ')}
-          <span className="bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">
-            {t('title').split(' ').slice(-1)[0]}
-          </span>
-        </h1>
-
-        <p className="mx-auto mb-10 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
-          {t('subtitle')} — {t('description')}
-        </p>
-
-        <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <Link href="/onboarding">
-            <Button size="lg" className="gap-2 bg-primary px-8 text-primary-foreground hover:bg-primary/90">
-              {t('ctaPrimary')}
-              <ArrowRight className="h-4 w-4" />
-            </Button>
-          </Link>
-          <Link href="/explore">
-            <Button size="lg" variant="outline" className="border-border px-8 text-foreground hover:bg-secondary">
-              {t('ctaSecondary')}
-            </Button>
-          </Link>
-        </div>
-      </div>
-    </section>
+      </section>
+    </>
   )
 }

@@ -5,7 +5,9 @@
       "Bash(npm run build)",
       "Bash(npm run dev)",
       "Bash(pkill -f \"next dev\")",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(ls -la /Users/arthur/Apps/Projects/Exponent/PRD*.md)",
+      "Bash(python3:*)"
     ]
   }
 }

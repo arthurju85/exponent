@@ -19,6 +19,7 @@
     "title": "生産性を通貨に",
     "subtitle": "Exponent - スーパー個人のトークン化融資プラットフォーム",
     "description": "スーパーセールス、独立開発者、コンテンツクリエイターの事業拡大資金調達を支援",
+    "betaBadge": "ベータ · 招待制",
     "ctaPrimary": "プロジェクトを開始",
     "ctaSecondary": "プロジェクトを探す"
   },
@@ -50,7 +51,29 @@
     "hardCap": "募集ハードキャップ (H)",
     "hardCapDesc": "流動性準備金 + 販売割り当てを含む",
     "pool": "プール資金 (L)",
-    "poolDesc": "卒業時に Uniswap に注入される流動性"
+    "poolDesc": "卒業時に Uniswap に注入される流動性",
+    "calculator": {
+      "title": "融資計算機",
+      "subtitle": "パラメータを調整してリアルタイムの推奨を取得"
+    },
+    "suggestedAmount": {
+      "title": "推奨融資額",
+      "subtitle": "DLPモデルに基づく最適プラン",
+      "forRole": "推奨対象",
+      "usdt": "USDT"
+    },
+    "currentCalc": {
+      "title": "現在の計算",
+      "beta": "β = {value}"
+    },
+    "fundingShort": "需要(F)",
+    "hardCapShort": "上限(H)",
+    "poolShort": "プール(L)",
+    "scripts": {
+      "superSeller": "四半期業績プッシュ—あと少しの現金ブーストで大きなクライアントを獲得したい。流動性保護？問題ない、私の返済サイクルはすでに短い。",
+      "solopreneur": "私のAI SaaS製品はまもなくリリースされます。クラウドサーバーと顧客獲得のための資金が必要です。DLPモデルは私の利害を投資家と一致させ—一緒にこの製品を成長させましょう。",
+      "creator": "コンテンツ作成には継続的な投資が必要であり、トラフィックの収益化は不安定です。トークン化融資を通じて、ファンを投資家に変え、クリエイターエコノミーを一緒に構築できます。"
+    }
   },
   "roleCards": {
     "title": "役割を選択",
@@ -62,23 +85,38 @@
     "superSeller": {
       "title": "スーパーセールス",
       "subtitle": "Super Seller",
-      "audiences": ["保険代理店", "不動産仲介", "ハイエンド営業コンサルタント"],
+      "audiences": [
+        "保険代理店",
+        "不動産仲介",
+        "ハイエンド営業コンサルタント"
+      ],
       "fundingTraits": "キャッシュ変換が極めて高速",
-      "lpLock": "少なめ（より多くの資金をビジネスに使用）"
+      "lpLock": "少なめ（より多くの資金をビジネスに使用）",
+      "description": "あなたの実績があなたの資産です。すべての取引が評判を構築し、融資を契約締結と同じくらい簡単にします。"
     },
     "solopreneur": {
       "title": "独立開発 / AI",
       "subtitle": "Solopreneur",
-      "audiences": ["独立プログラマー", "AI 起業家", "SaaS 開発者"],
+      "audiences": [
+        "独立プログラマー",
+        "AI 起業家",
+        "SaaS 開発者"
+      ],
       "fundingTraits": "中程度の開発サイクル",
-      "lpLock": "バランスの取れた配分"
+      "lpLock": "バランスの取れた配分",
+      "description": "1行のコードが世界を変えることができます。あなたの技術力を資本力に変えるお手伝いをします—妥協なく創造に集中してください。"
     },
     "creator": {
       "title": "コンテンツクリエイター",
       "subtitle": "Content Creator",
-      "audiences": ["インフルエンサー / KOL", "YouTuber", "個人メディアクリエイター"],
+      "audiences": [
+        "インフルエンサー / KOL",
+        "YouTuber",
+        "個人メディアクリエイター"
+      ],
       "fundingTraits": "不安定なキャッシュフロー",
-      "lpLock": "多め（コンセンサス主導）"
+      "lpLock": "多め（コンセンサス主導）",
+      "description": "ファンがあなたの防御壁であり、影響力があなたの評価です。コミュニティをあなたの最も強固な後盾にしましょう。"
     }
   },
   "stats": {
@@ -86,7 +124,11 @@
     "totalProjects": "累計融資プロジェクト",
     "tvl": "総ロック流動性 (TVL)",
     "graduated": "卒業プロジェクト",
-    "avgReturn": "平均投資家リターン率"
+    "avgReturn": "平均投資家リターン率",
+    "subtitle": "生産性アンカー価値システムを探索する",
+    "avgGamma": "平均生産性係数",
+    "comingSoon": "近日公開",
+    "footnote": "*すべてのデータは製品ローンチ前の準備統計を表しています。"
   },
   "projects": {
     "title": "最新プロジェクト",
@@ -98,6 +140,14 @@
     "status": {
       "subscribing": "購読中",
       "graduated": "卒業済み"
+    },
+    "preview": {
+      "title": "第一陣に参加",
+      "description": "Exponent は野望あるスーパー個人を求めています。ビジネス成長のための資金が必要で、生産性アンカー価値体系を受け入れる準備ができている場合、ご期待しております",
+      "cta": "ベータアクセスを申請",
+      "fundingRange": "推定融資額",
+      "eta": "推定ローンチ",
+      "footnote": "*表示されているプロジェクトは招待制での準備中です。正式な投資チャンネルは製品ローンチ後に開放されます。"
     }
   },
   "onboarding": {
@@ -174,5 +224,25 @@
     "error": "エラー",
     "warning": "警告",
     "info": "情報"
+  },
+  "roles": {
+    "superSeller": {
+      "title": "スーパーセールス",
+      "tags": "保険、不動産、ハイエンド営業",
+      "feature": "キャッシュ変換が極めて高速 | LPロック少なめ、より多くの資金をビジネスに",
+      "gamma": "γ = 1.8"
+    },
+    "solopreneur": {
+      "title": "独立開発 / AI",
+      "tags": "開発者、AI起業家、SaaS構築者",
+      "feature": "中程度の開発サイクル | バランスの取れた配分",
+      "gamma": "γ = 1.2"
+    },
+    "creator": {
+      "title": "コンテンツクリエイター",
+      "tags": "KOL、YouTuber、個人メディア",
+      "feature": "不安定なキャッシュフロー | LPロック多め（コンセンサス主導）",
+      "gamma": "γ = 0.8"
+    }
   }
 }

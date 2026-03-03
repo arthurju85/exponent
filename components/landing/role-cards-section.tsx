@@ -58,8 +58,8 @@ export function RoleCardsSection() {
                 </div>
 
                 <h3 className="text-xl font-bold text-foreground">{t(`${role.key}.title`)}</h3>
-                <p className="mb-4 text-sm text-muted-foreground">{t(`${role.key}.subtitle`)}</p>
-
+                <p className="mb-2 text-sm text-muted-foreground">{t(`${role.key}.subtitle`)}</p>
+                <p className="mb-4 text-sm text-foreground leading-relaxed">{t(`${role.key}.description`)}</p>
 
                 <div className="mb-6">
                   <p className="mb-2 text-sm font-medium text-foreground">{t("audiences")}</p>

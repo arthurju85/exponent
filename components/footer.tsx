@@ -54,7 +54,6 @@ export function Footer() {
             &copy; 2026 Exponent. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground">
-            {t('disclaimer')}
           </p>
         </div>
       </div>

@@ -19,6 +19,7 @@
     "title": "讓生產力成為貨幣",
     "subtitle": "Exponent - 超級個體的代幣化融資平台",
     "description": "幫助超級銷售、獨立開發者、內容創作者完成業務擴張的資金募集",
+    "betaBadge": "內測階段 · 邀請制",
     "ctaPrimary": "啟動我的項目",
     "ctaSecondary": "探索項目"
   },
@@ -50,7 +51,29 @@
     "hardCap": "募集硬頂 (H)",
     "hardCapDesc": "包含流動性儲備 + 發售額度",
     "pool": "入池資金 (L)",
-    "poolDesc": "畢業時注入 Uniswap 的流動性"
+    "poolDesc": "畢業時注入 Uniswap 的流動性",
+    "calculator": {
+      "title": "Funding Calculator",
+      "subtitle": "Adjust parameters for real-time recommendations"
+    },
+    "suggestedAmount": {
+      "title": "Suggested Funding Amount",
+      "subtitle": "Optimal plan based on DLP model",
+      "forRole": "Recommended for",
+      "usdt": "USDT"
+    },
+    "currentCalc": {
+      "title": "Current Calculation",
+      "beta": "β = {value}"
+    },
+    "fundingShort": "Need(F)",
+    "hardCapShort": "Cap(H)",
+    "poolShort": "Pool(L)",
+    "scripts": {
+      "superSeller": "Quarterly performance push—I just need a short-term cash boost to land this big client. Liquidity protection? No problem, my payback cycle is already short.",
+      "solopreneur": "My AI SaaS product is launching soon. I need funds for cloud servers and customer acquisition. The DLP model aligns my interests with investors—let's grow this product together.",
+      "creator": "Content creation requires continuous investment, and traffic monetization is unstable. Through tokenized financing, I can turn fans into investors and build my creator economy together."
+    }
   },
   "roleCards": {
     "title": "選擇你的角色",
@@ -62,23 +85,38 @@
     "superSeller": {
       "title": "超級銷售",
       "subtitle": "Super Seller",
-      "audiences": ["保險代理人", "房產中介", "高端銷售顧問"],
+      "audiences": [
+        "保險代理人",
+        "房產中介",
+        "高端銷售顧問"
+      ],
       "fundingTraits": "現金轉化極快",
-      "lpLock": "較少 (更多資金用於業務)"
+      "lpLock": "較少 (更多資金用於業務)",
+      "description": "Your performance is your asset. Every deal builds your reputation, making financing as simple as closing a sale."
     },
     "solopreneur": {
       "title": "獨立開發 / AI",
       "subtitle": "Solopreneur",
-      "audiences": ["獨立程式設計師", "AI 創業者", "SaaS 開發者"],
+      "audiences": [
+        "獨立程式設計師",
+        "AI 創業者",
+        "SaaS 開發者"
+      ],
       "fundingTraits": "研發週期中等",
-      "lpLock": "平衡配置"
+      "lpLock": "平衡配置",
+      "description": "One line of code can change the world. We help you transform technical prowess into capital power—focus on creating without compromise."
     },
     "creator": {
       "title": "內容創作者",
       "subtitle": "Content Creator",
-      "audiences": ["網紅 / KOL", "YouTuber", "自媒體創作者"],
+      "audiences": [
+        "網紅 / KOL",
+        "YouTuber",
+        "自媒體創作者"
+      ],
       "fundingTraits": "現金流不穩定",
-      "lpLock": "較多 (靠共識驅動)"
+      "lpLock": "較多 (靠共識驅動)",
+      "description": "Your fans are your moat, your influence is your valuation. Let your community become your strongest backing."
     }
   },
   "stats": {
@@ -86,7 +124,11 @@
     "totalProjects": "累計融資項目",
     "tvl": "總鎖定流動性 (TVL)",
     "graduated": "已畢業項目",
-    "avgReturn": "平均投資者回報率"
+    "avgReturn": "平均投資者回報率",
+    "subtitle": "We're refining the product with our first cohort of super-individuals. Real platform data will be displayed here after official launch",
+    "comingSoon": "Coming Soon",
+    "avgGamma": "Avg. Productivity Coeff.",
+    "footnote": "*All data represents pre-launch preparation statistics for the first cohort of quality projects. Actual data will be updated in real-time after official launch."
   },
   "projects": {
     "title": "最新項目",
@@ -94,7 +136,19 @@
     "viewAll": "查看全部",
     "progress": "募集進度",
     "daysLeft": "剩餘天數",
-    "investors": "投資者"
+    "investors": "投資者",
+    "status": {
+      "subscribing": "Subscribing",
+      "graduated": "Graduated"
+    },
+    "preview": {
+      "title": "Join the First Cohort",
+      "description": "Exponent is seeking ambitious super-individuals. If you need funding to grow your business and are willing to embrace a productivity-anchored value system, we look forward to partnering with you",
+      "cta": "Apply for Beta Access",
+      "fundingRange": "Est. Funding",
+      "eta": "Est. Launch",
+      "footnote": "*Projects shown are in preparation under an invite-only system. Official investment channels will open after product launch."
+    }
   },
   "onboarding": {
     "title": "創建你的項目",
@@ -170,5 +224,25 @@
     "error": "錯誤",
     "warning": "警告",
     "info": "資訊"
+  },
+  "roles": {
+    "superSeller": {
+      "title": "Super Seller",
+      "tags": "Insurance, Real Estate, High-end Sales",
+      "feature": "Fast cash conversion | Less LP locked, more withdrawal",
+      "gamma": "γ = 1.8"
+    },
+    "solopreneur": {
+      "title": "Solopreneur / AI",
+      "tags": "Developers, AI Entrepreneurs, SaaS Builders",
+      "feature": "Medium R&D cycle | Balanced allocation",
+      "gamma": "γ = 1.2"
+    },
+    "creator": {
+      "title": "Content Creator",
+      "tags": "KOLs, YouTubers, Self-media",
+      "feature": "Unstable cash flow | More LP locked",
+      "gamma": "γ = 0.8"
+    }
   }
 }

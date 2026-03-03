@@ -17,8 +17,9 @@
   },
   "hero": {
     "title": "让生产力成为货币",
-    "subtitle": "Exponent - 超级个体的代币化融资平台",
-    "description": "帮助超级销售、独立开发者、内容创作者完成业务扩张的资金募集",
+    "subtitle": "为超级个体打造的智能融资协议",
+    "description": "将你的业绩、作品和影响力转化为可量化资产。Exponent 帮助超级销售、独立开发者和创作者融资扩张业务。",
+    "betaBadge": "内测阶段 · 邀请制",
     "ctaPrimary": "启动我的项目",
     "ctaSecondary": "探索项目"
   },
@@ -50,11 +51,33 @@
     "hardCap": "募集硬顶 (H)",
     "hardCapDesc": "包含流动性储备 + 发售额度",
     "pool": "入池资金 (L)",
-    "poolDesc": "毕业时注入 Uniswap 的流动性"
+    "poolDesc": "毕业时注入 Uniswap 的流动性",
+    "calculator": {
+      "title": "融资计算器",
+      "subtitle": "调整参数获取实时融资建议"
+    },
+    "suggestedAmount": {
+      "title": "建议融资金额",
+      "subtitle": "基于 DLP 模型的最优方案",
+      "forRole": "推荐",
+      "usdt": "USDT"
+    },
+    "currentCalc": {
+      "title": "当前计算结果",
+      "beta": "β = {value}"
+    },
+    "fundingShort": "需求(F)",
+    "hardCapShort": "硬顶(H)",
+    "poolShort": "入池(L)",
+    "scripts": {
+      "superSeller": "季度业绩冲刺，我只需要一笔短期周转，就能签下这单大客户。流动性保护？没问题，我的回款周期本来就短。",
+      "solopreneur": "AI SaaS 产品即将上线，我需要资金用于云服务器和获客。DLP 模型让我和投资者利益绑定，一起见证产品成长。",
+      "creator": "内容创作需要持续投入，流量变现不稳定。通过代币化融资，让粉丝成为投资者，共建我的创作者经济。"
+    }
   },
   "roleCards": {
     "title": "选择你的角色",
-    "subtitle": "不同类型的超级个体适用不同的生产力系数与资金配置策略",
+    "subtitle": "我们相信，每一类超级个体都有独特的成长路径。Exponent 用数据和模型，为你的野心保驾护航",
     "gamma": "生产力系数",
     "audiences": "适用人群",
     "fundingTraits": "资金特点",
@@ -62,6 +85,7 @@
     "superSeller": {
       "title": "超级销售",
       "subtitle": "Super Seller",
+      "description": "你的业绩就是你的资产。每一笔成交都在积累信誉，让融资像签单一样简单。",
       "audiences": ["保险代理人", "房产中介", "高端销售顾问"],
       "fundingTraits": "现金转化极快",
       "lpLock": "较少 (更多资金用于业务)"
@@ -69,6 +93,7 @@
     "solopreneur": {
       "title": "独立开发 / AI",
       "subtitle": "Solopreneur",
+      "description": "一行代码可以改变世界。我们帮你把技术实力转化为资本实力，专注创造，无需妥协。",
       "audiences": ["独立程序员", "AI 创业者", "SaaS 开发者"],
       "fundingTraits": "研发周期中等",
       "lpLock": "平衡配置"
@@ -76,6 +101,7 @@
     "creator": {
       "title": "内容创作者",
       "subtitle": "Content Creator",
+      "description": "粉丝是你的护城河，影响力是你的估值。让社区成为你最坚定的后盾。",
       "audiences": ["网红 / KOL", "YouTuber", "自媒体创作者"],
       "fundingTraits": "现金流不稳定",
       "lpLock": "较多 (靠共识驱动)"
@@ -83,18 +109,29 @@
   },
   "stats": {
     "title": "平台数据总览",
-    "totalProjects": "累计融资项目",
-    "tvl": "总锁定流动性 (TVL)",
-    "graduated": "已毕业项目",
-    "avgReturn": "平均投资者回报率"
+    "subtitle": "我们正与第一批超级个体一起打磨产品。正式上线后，这里将展示真实的平台数据",
+    "comingSoon": "预筹备中",
+    "totalProjects": "预筹备项目",
+    "tvl": "预计总锁定流动性",
+    "graduated": "预计首发项目",
+    "avgGamma": "预计平均生产力系数",
+    "footnote": "*以上数据为平台正式上线前的预筹备项目统计，代表第一期优质项目阵容。实际数据将在产品正式上线后实时更新。"
   },
   "projects": {
-    "title": "最新项目",
-    "subtitle": "探索正在募资中的超级个体项目",
+    "title": "首批入驻项目",
+    "subtitle": "我们正在精心筛选第一批种子项目。如果你是超级销售、独立开发者或内容创作者，欢迎申请内测入驻",
     "viewAll": "查看全部",
     "progress": "募集进度",
     "daysLeft": "剩余天数",
-    "investors": "投资者"
+    "investors": "投资者",
+    "preview": {
+      "title": "成为首批入驻者",
+      "description": "Exponent 正在寻找有野心的超级个体。如果你需要资金支持业务增长，同时愿意接受生产力锚定的价值体系，我们期待与你合作",
+      "cta": "申请内测入驻",
+      "fundingRange": "预计募集",
+      "eta": "预计上线",
+      "footnote": "*当前展示为内部邀请制下的预筹备项目。正式认购通道将在产品上线后开放。"
+    }
   },
   "onboarding": {
     "title": "创建你的项目",

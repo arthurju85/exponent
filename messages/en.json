@@ -17,8 +17,9 @@
   },
   "hero": {
     "title": "Make Productivity a Currency",
-    "subtitle": "Exponent - Tokenized Financing Platform for Super-Individuals",
-    "description": "Helping super sellers, independent developers, and content creators raise funds for business expansion",
+    "subtitle": "Intelligent Financing Protocol for Super-Individuals",
+    "description": "Turn your performance, creations, and influence into quantifiable assets. Exponent helps super sellers, solopreneurs, and creators raise funds for business growth.",
+    "betaBadge": "Beta · Invitation Only",
     "ctaPrimary": "Launch My Project",
     "ctaSecondary": "Explore Projects"
   },
@@ -31,7 +32,7 @@
     },
     "incubation": {
       "title": "Incubation",
-      "description": "15-day bonding curve subscription period"
+      "description": "90-day bonding curve subscription period"
     },
     "productivity": {
       "title": "Productivity Anchoring",
@@ -50,11 +51,33 @@
     "hardCap": "Hard Cap (H)",
     "hardCapDesc": "Includes liquidity reserve + sale allocation",
     "pool": "Pool Funds (L)",
-    "poolDesc": "Liquidity injected at graduation"
+    "poolDesc": "Liquidity injected at graduation",
+    "calculator": {
+      "title": "Funding Calculator",
+      "subtitle": "Adjust parameters for real-time recommendations"
+    },
+    "suggestedAmount": {
+      "title": "Suggested Funding Amount",
+      "subtitle": "Optimal plan based on DLP model",
+      "forRole": "Recommended for",
+      "usdt": "USDT"
+    },
+    "currentCalc": {
+      "title": "Current Calculation",
+      "beta": "β = {value}"
+    },
+    "fundingShort": "Need(F)",
+    "hardCapShort": "Cap(H)",
+    "poolShort": "Pool(L)",
+    "scripts": {
+      "superSeller": "Quarterly performance push—I just need a short-term cash boost to land this big client. Liquidity protection? No problem, my payback cycle is already short.",
+      "solopreneur": "My AI SaaS product is launching soon. I need funds for cloud servers and customer acquisition. The DLP model aligns my interests with investors—let's grow this product together.",
+      "creator": "Content creation requires continuous investment, and traffic monetization is unstable. Through tokenized financing, I can turn fans into investors and build my creator economy together."
+    }
   },
   "roleCards": {
     "title": "Choose Your Role",
-    "subtitle": "Different types of super-individuals apply different productivity coefficients and capital allocation strategies",
+    "subtitle": "We believe every type of super-individual has a unique growth path. Exponent uses data and models to safeguard your ambitions",
     "gamma": "Productivity Coefficient",
     "audiences": "Target Audience",
     "fundingTraits": "Capital Traits",
@@ -62,6 +85,7 @@
     "superSeller": {
       "title": "Super Seller",
       "subtitle": "Super Seller",
+      "description": "Your performance is your asset. Every deal builds your reputation, making financing as simple as closing a sale.",
       "audiences": ["Insurance Agents", "Real Estate Agents", "High-end Sales Consultants"],
       "fundingTraits": "Fast cash conversion",
       "lpLock": "Less (more funds for business)"
@@ -69,6 +93,7 @@
     "solopreneur": {
       "title": "Solopreneur / AI",
       "subtitle": "Solopreneur",
+      "description": "One line of code can change the world. We help you transform technical prowess into capital power—focus on creating without compromise.",
       "audiences": ["Independent Developers", "AI Entrepreneurs", "SaaS Developers"],
       "fundingTraits": "Medium R&D cycle",
       "lpLock": "Balanced allocation"
@@ -76,6 +101,7 @@
     "creator": {
       "title": "Content Creator",
       "subtitle": "Content Creator",
+      "description": "Your fans are your moat, your influence is your valuation. Let your community become your strongest backing.",
       "audiences": ["Influencers / KOLs", "YouTubers", "Self-media Creators"],
       "fundingTraits": "Unstable cash flow",
       "lpLock": "More (consensus-driven)"
@@ -83,14 +109,17 @@
   },
   "stats": {
     "title": "Platform Overview",
-    "totalProjects": "Total Projects",
-    "tvl": "Total Value Locked",
-    "graduated": "Graduated Projects",
-    "avgReturn": "Avg. Investor Return"
+    "subtitle": "We're refining the product with our first cohort of super-individuals. Real platform data will be displayed here after official launch",
+    "comingSoon": "Coming Soon",
+    "totalProjects": "Pre-Launch Projects",
+    "tvl": "Projected TVL",
+    "graduated": "First Cohort",
+    "avgGamma": "Avg. Productivity Coeff.",
+    "footnote": "*All data represents pre-launch preparation statistics for the first cohort of quality projects. Actual data will be updated in real-time after official launch."
   },
   "projects": {
-    "title": "Latest Projects",
-    "subtitle": "Explore super-individual projects currently raising funds",
+    "title": "First Cohort Projects",
+    "subtitle": "We're carefully curating our first cohort of projects. If you're a super seller, solopreneur, or content creator, apply for beta access",
     "viewAll": "View All",
     "progress": "Progress",
     "daysLeft": "days left",
@@ -98,6 +127,14 @@
     "status": {
       "subscribing": "Subscribing",
       "graduated": "Graduated"
+    },
+    "preview": {
+      "title": "Join the First Cohort",
+      "description": "Exponent is seeking ambitious super-individuals. If you need funding to grow your business and are willing to embrace a productivity-anchored value system, we look forward to partnering with you",
+      "cta": "Apply for Beta Access",
+      "fundingRange": "Est. Funding",
+      "eta": "Est. Launch",
+      "footnote": "*Projects shown are in preparation under an invite-only system. Official investment channels will open after product launch."
     }
   },
   "roles": {
