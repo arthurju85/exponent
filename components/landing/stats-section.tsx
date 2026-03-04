@@ -5,9 +5,9 @@ import { Rocket, Wallet, GraduationCap, BarChart3 } from "lucide-react"
 
 const stats = [
   { key: "totalProjects", value: 12, suffix: "", prefix: "", icon: Rocket },
-  { key: "tvl", value: 2.5, suffix: "M", prefix: "$", icon: Wallet },
+  { key: "tvl", value: 1.3, suffix: "M", prefix: "$", icon: Wallet },
   { key: "graduated", value: 8, suffix: "", prefix: "", icon: GraduationCap },
-  { key: "avgGamma", value: 1.4, suffix: "γ", prefix: "", icon: BarChart3 },
+  { key: "totalFunding", value: 5.2, suffix: "M", prefix: "$", icon: BarChart3 },
 ]
 
 function StatCard({ label, value, suffix, prefix, icon: Icon }: {

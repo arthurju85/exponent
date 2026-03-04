@@ -60,7 +60,7 @@
       "title": "推奨融資額",
       "subtitle": "DLPモデルに基づく最適プラン",
       "forRole": "推奨対象",
-      "usdt": "USDT"
+      "usd": "USD"
     },
     "currentCalc": {
       "title": "現在の計算",
@@ -76,7 +76,7 @@
     }
   },
   "roleCards": {
-    "title": "役割を選択",
+    "title": "誰のために",
     "subtitle": "異なるタイプのスーパー個人には、異なる生産性係数と資金配分戦略が適用される",
     "gamma": "生産性係数",
     "audiences": "対象者",
@@ -120,13 +120,13 @@
     }
   },
   "stats": {
-    "title": "プラットフォーム概要",
+    "title": "準備中",
     "totalProjects": "累計融資プロジェクト",
     "tvl": "総ロック流動性 (TVL)",
     "graduated": "卒業プロジェクト",
     "avgReturn": "平均投資家リターン率",
     "subtitle": "生産性アンカー価値システムを探索する",
-    "avgGamma": "平均生産性係数",
+    "totalFunding": "推定融資総額",
     "comingSoon": "近日公開",
     "footnote": "*すべてのデータは製品ローンチ前の準備統計を表しています。"
   },

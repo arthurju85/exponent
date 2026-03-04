@@ -1,5 +1,68 @@
 # Exponent 设计文档变更记录
 
+## 版本 v1.10 - 2026-03-04
+
+### 变更概述
+融资计算器 (DLP Section) 布局重构：角色描述合并到左侧、Icon 更换、联动逻辑优化、文案更新。
+
+### 详细变更内容
+
+#### 1. 首页区块顺序调整
+
+**调整内容：**
+- **原顺序**: Hero → 核心概念 → DLP模型 → 为谁而生 → 数据总览 → 项目展示
+- **新顺序**: Hero → 核心概念 → **为谁而生 → DLP模型** → 数据总览 → 项目展示
+
+**调整原因：**
+先介绍平台服务的用户群体（为谁而生），再介绍底层技术机制（DLP模型），更符合用户认知逻辑。
+
+**影响文件:**
+- `app/page.tsx`
+- `DESIGN_SPEC.md` (页面结构文档)
+
+---
+
+#### 2. DLP Section 布局重构
+
+**左侧区域（角色选择）：**
+- 三个角色按钮使用 Icon（Briefcase/Code/Video）替代原来的头像缩写
+- 点击角色后，在按钮下方动态展示角色描述话术
+- 删除右侧独立的 Script/Quote Card
+
+**右侧区域（融资建议）：**
+- 与左侧区域高度保持一致
+- 显示当前滑块选中的金额（而非固定的角色建议金额）
+- 单位从 "USDT" 改为 "USD"
+
+**联动逻辑：**
+- 点击角色自动设置对应的建议融资金额：
+  - Super Seller: $80,000
+  - Solopreneur: $400,000
+  - Creator: $120,000
+- 拖动滑块实时更新右侧显示金额
+
+**影响文件:**
+- `components/landing/dlp-section.tsx`
+
+---
+
+#### 2. 文案更新
+
+| 位置 | 原中文 | 新中文 | 英文 |
+|------|--------|--------|------|
+| roleCards.title | 选择你的角色 | 为谁而生 | Who We Build For |
+| stats.title | 平台数据总览 | 首发进行时 | In The Cooking |
+| stats.avgGamma | 预计平均生产力系数 | 预计融资总额 | Total Est. Funding |
+| dlp.suggestedAmount.usd | - | USD | USD |
+
+**影响文件:**
+- `messages/zh-CN.json`
+- `messages/zh-HK.json`
+- `messages/en.json`
+- `messages/ja.json`
+
+---
+
 ## 版本 v1.9 - 2026-03-03
 
 ### 变更概述

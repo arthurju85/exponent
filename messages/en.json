@@ -60,7 +60,7 @@
       "title": "Suggested Funding Amount",
       "subtitle": "Optimal plan based on DLP model",
       "forRole": "Recommended for",
-      "usdt": "USDT"
+      "usd": "USD"
     },
     "currentCalc": {
       "title": "Current Calculation",
@@ -76,7 +76,7 @@
     }
   },
   "roleCards": {
-    "title": "Choose Your Role",
+    "title": "Who We Build For",
     "subtitle": "We believe every type of super-individual has a unique growth path. Exponent uses data and models to safeguard your ambitions",
     "gamma": "Productivity Coefficient",
     "audiences": "Target Audience",
@@ -108,13 +108,13 @@
     }
   },
   "stats": {
-    "title": "Platform Overview",
+    "title": "In The Cooking",
     "subtitle": "We're refining the product with our first cohort of super-individuals. Real platform data will be displayed here after official launch",
     "comingSoon": "Coming Soon",
     "totalProjects": "Pre-Launch Projects",
     "tvl": "Projected TVL",
     "graduated": "First Cohort",
-    "avgGamma": "Avg. Productivity Coeff.",
+    "totalFunding": "Total Est. Funding",
     "footnote": "*All data represents pre-launch preparation statistics for the first cohort of quality projects. Actual data will be updated in real-time after official launch."
   },
   "projects": {

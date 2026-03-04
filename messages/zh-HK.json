@@ -60,7 +60,7 @@
       "title": "Suggested Funding Amount",
       "subtitle": "Optimal plan based on DLP model",
       "forRole": "Recommended for",
-      "usdt": "USDT"
+      "usd": "USD"
     },
     "currentCalc": {
       "title": "Current Calculation",
@@ -76,7 +76,7 @@
     }
   },
   "roleCards": {
-    "title": "選擇你的角色",
+    "title": "為誰而生",
     "subtitle": "不同類型的超級個體適用不同的生產力系數與資金配置策略",
     "gamma": "生產力系數",
     "audiences": "適用人群",
@@ -120,14 +120,14 @@
     }
   },
   "stats": {
-    "title": "平台數據總覽",
+    "title": "首發進行時",
     "totalProjects": "累計融資項目",
     "tvl": "總鎖定流動性 (TVL)",
     "graduated": "已畢業項目",
     "avgReturn": "平均投資者回報率",
     "subtitle": "We're refining the product with our first cohort of super-individuals. Real platform data will be displayed here after official launch",
     "comingSoon": "Coming Soon",
-    "avgGamma": "Avg. Productivity Coeff.",
+    "totalFunding": "預計融資總額",
     "footnote": "*All data represents pre-launch preparation statistics for the first cohort of quality projects. Actual data will be updated in real-time after official launch."
   },
   "projects": {

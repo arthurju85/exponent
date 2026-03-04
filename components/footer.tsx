@@ -51,7 +51,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 md:flex-row">
           <p className="text-xs text-muted-foreground">
-            &copy; 2026 Exponent. All rights reserved.
+            {t('copyright')}
           </p>
           <p className="text-xs text-muted-foreground">
           </p>

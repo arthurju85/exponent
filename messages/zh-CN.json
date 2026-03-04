@@ -60,7 +60,8 @@
       "title": "建议融资金额",
       "subtitle": "基于 DLP 模型的最优方案",
       "forRole": "推荐",
-      "usdt": "USDT"
+      "usdt": "USDT",
+      "usd": "USD"
     },
     "currentCalc": {
       "title": "当前计算结果",
@@ -76,7 +77,7 @@
     }
   },
   "roleCards": {
-    "title": "选择你的角色",
+    "title": "为谁而生",
     "subtitle": "我们相信，每一类超级个体都有独特的成长路径。Exponent 用数据和模型，为你的野心保驾护航",
     "gamma": "生产力系数",
     "audiences": "适用人群",
@@ -108,13 +109,13 @@
     }
   },
   "stats": {
-    "title": "平台数据总览",
+    "title": "首发进行时",
     "subtitle": "我们正与第一批超级个体一起打磨产品。正式上线后，这里将展示真实的平台数据",
     "comingSoon": "预筹备中",
     "totalProjects": "预筹备项目",
     "tvl": "预计总锁定流动性",
     "graduated": "预计首发项目",
-    "avgGamma": "预计平均生产力系数",
+    "totalFunding": "预计融资总额",
     "footnote": "*以上数据为平台正式上线前的预筹备项目统计，代表第一期优质项目阵容。实际数据将在产品正式上线后实时更新。"
   },
   "projects": {

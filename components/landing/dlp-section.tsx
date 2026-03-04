@@ -3,32 +3,35 @@
 import { useState } from "react"
 import { useTranslations } from "next-intl"
 import { Slider } from "@/components/ui/slider"
-import { Calculator, TrendingUp, Shield } from "lucide-react"
+import { Calculator, TrendingUp, Briefcase, Code, Video } from "lucide-react"
 
 const roles = [
   {
     key: "superSeller",
     color: "bg-blue-500",
-    avatar: "SS",
-    avatarColor: "bg-blue-600",
+    icon: Briefcase,
+    iconColor: "text-blue-400",
+    bgColor: "bg-blue-500/20",
     scriptKey: "superSeller",
     suggestedFunding: 80000,
   },
   {
     key: "solopreneur",
     color: "bg-emerald-500",
-    avatar: "SO",
-    avatarColor: "bg-emerald-600",
+    icon: Code,
+    iconColor: "text-emerald-400",
+    bgColor: "bg-emerald-500/20",
     scriptKey: "solopreneur",
-    suggestedFunding: 50000,
+    suggestedFunding: 400000,
   },
   {
     key: "creator",
     color: "bg-amber-500",
-    avatar: "CC",
-    avatarColor: "bg-amber-600",
+    icon: Video,
+    iconColor: "text-amber-400",
+    bgColor: "bg-amber-500/20",
     scriptKey: "creator",
-    suggestedFunding: 40000,
+    suggestedFunding: 120000,
   },
 ]
 
@@ -43,12 +46,16 @@ function calculateDLP(F: number) {
 export function DLPSection() {
   const t = useTranslations("dlp")
   const tr = useTranslations("roleCards")
-  const [fundingAmount, setFundingAmount] = useState([50000])
-  const [selectedRole, setSelectedRole] = useState(0)
+  const [fundingAmount, setFundingAmount] = useState([40000])
+  const [selectedRole, setSelectedRole] = useState(1)
 
   const F = fundingAmount[0]
   const { H, L } = calculateDLP(F)
-  const suggestedH = Math.round(roles[selectedRole].suggestedFunding * 1.25)
+
+  const handleRoleSelect = (index: number) => {
+    setSelectedRole(index)
+    setFundingAmount([roles[index].suggestedFunding])
+  }
 
   return (
     <section className="px-6 py-24">
@@ -105,27 +112,40 @@ export function DLPSection() {
                 {roles.map((role, i) => (
                   <button
                     key={role.key}
-                    onClick={() => setSelectedRole(i)}
+                    onClick={() => handleRoleSelect(i)}
                     className={`flex-1 rounded-xl border p-3 text-center text-sm transition-all ${
                       selectedRole === i
                         ? "border-primary bg-primary/10 text-foreground"
                         : "border-border bg-secondary text-muted-foreground hover:border-primary/30"
                     }`}
                   >
-                    <div className={`mx-auto mb-2 flex h-10 w-10 items-center justify-center rounded-full ${role.avatarColor} text-xs font-bold text-white`}>
-                      {role.avatar}
+                    <div className={`mx-auto mb-2 flex h-10 w-10 items-center justify-center rounded-xl ${role.bgColor}`}>
+                      <role.icon className={`h-5 w-5 ${role.iconColor}`} />
                     </div>
                     <div className="font-medium">{tr(`${role.key}.title`)}</div>
                         </button>
                 ))}
               </div>
+
+              {/* Role Description Script */}
+              <div className="mt-4 rounded-xl border border-primary/20 bg-primary/5 p-4">
+                <div className="flex items-start gap-3">
+                  <div className={`flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl ${roles[selectedRole].bgColor}`}>
+                    <span className="text-lg font-bold text-white">"</span>
+                  </div>
+                  <div className="flex-1">
+                    <p className="text-sm leading-relaxed text-foreground">
+                      {t(`scripts.${roles[selectedRole].scriptKey}`)}
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
           {/* Right: Financing Advice (60%) */}
-          <div className="lg:col-span-3 flex flex-col gap-6">
-            {/* Main Suggested Amount Card */}
-            <div className="flex-1 rounded-2xl border border-primary/20 bg-gradient-to-br from-primary/5 via-background to-background p-8">
+          <div className="lg:col-span-3">
+            <div className="h-full rounded-2xl border border-primary/20 bg-gradient-to-br from-primary/5 via-background to-background p-8 flex flex-col">
               <div className="mb-6 flex items-center gap-3">
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
                   <TrendingUp className="h-5 w-5 text-primary" />
@@ -137,12 +157,12 @@ export function DLPSection() {
               </div>
 
               {/* Big Suggested Amount */}
-              <div className="mb-6 text-center">
+              <div className="mb-6 text-center flex-1 flex flex-col justify-center">
                 <div className="text-sm text-muted-foreground mb-2">{t("suggestedAmount.forRole")} {tr(`${roles[selectedRole].key}.title`)}</div>
                 <div className="font-mono text-5xl md:text-6xl font-bold text-primary tracking-tight">
-                  ${roles[selectedRole].suggestedFunding.toLocaleString()}
+                  ${F.toLocaleString()}
                 </div>
-                <div className="text-sm text-muted-foreground mt-2">{t("suggestedAmount.usdt")}</div>
+                <div className="text-sm text-muted-foreground mt-2">{t("suggestedAmount.usd")}</div>
               </div>
 
               {/* Quick Calculation Result */}
@@ -164,22 +184,6 @@ export function DLPSection() {
                     <div className="text-xs text-muted-foreground">{t("poolShort")}</div>
                     <div className="font-mono text-lg font-semibold text-emerald-500">${(L/1000).toFixed(0)}K</div>
                   </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Script/Quote Card */}
-            <div className="rounded-xl border border-primary/20 bg-primary/5 p-5">
-              <div className="flex items-start gap-4">
-                <div className={`flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full ${roles[selectedRole].avatarColor} text-sm font-bold text-white`}>
-                  {roles[selectedRole].avatar}
-                </div>
-                <div className="flex-1">
-                  <div className="mb-1 text-sm font-medium text-foreground">{tr(`${roles[selectedRole].key}.title`)}</div>
-                  <div className="mb-2 text-xs text-muted-foreground">{tr(`${roles[selectedRole].key}.fundingTraits`)} | {tr(`${roles[selectedRole].key}.lpLock`)}</div>
-                  <p className="text-sm italic text-primary leading-relaxed">
-                    "{t(`scripts.${roles[selectedRole].scriptKey}`)}"
-                  </p>
                 </div>
               </div>
             </div>
