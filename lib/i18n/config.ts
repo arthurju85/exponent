@@ -12,7 +12,7 @@ export const defaultLocale: Locale = 'en';
 export const localeNames: Record<Locale, string> = {
   'en': 'English',
   'zh-CN': '简体中文',
-  'zh-HK': '繁體中文 (香港)',
+  'zh-HK': '繁體中文',
   'ja': '日本語',
 };
 

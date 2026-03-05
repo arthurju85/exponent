@@ -15,9 +15,6 @@ export function Footer() {
             <div className="mb-4">
               <LogoWithText />
             </div>
-            <p className="text-sm leading-relaxed text-muted-foreground">
-              {t('copyright')}
-            </p>
           </div>
 
           <div>
