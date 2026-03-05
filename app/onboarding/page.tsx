@@ -11,6 +11,8 @@ import { Badge } from "@/components/ui/badge"
 import { Check, ArrowRight, ArrowLeft, Twitter, Mail, Phone, Upload, Briefcase, Code, Video, Loader2 } from "lucide-react"
 import { useRouter } from "next/navigation"
 
+export const dynamic = 'force-dynamic'
+
 const steps = ["身份认证", "角色选择", "填写需求", "生成方案"]
 
 const roleOptions = [
