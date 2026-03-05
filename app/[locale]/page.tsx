@@ -13,8 +13,8 @@ export default function LandingPage() {
       <Navbar />
       <HeroSection />
       <FeaturesSection />
-      <DLPSection />
       <RoleCardsSection />
+      <DLPSection />
       <StatsSection />
       <ProjectsSection />
       <Footer />
