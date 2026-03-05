@@ -11,6 +11,8 @@ import { Textarea } from "@/components/ui/textarea"
 import { Lock, FileText, Loader2, RefreshCw, Pencil, Check } from "lucide-react"
 import { useRouter } from "next/navigation"
 
+export const dynamic = 'force-dynamic'
+
 // Token allocation donut chart
 function DonutChart() {
   const segments = [

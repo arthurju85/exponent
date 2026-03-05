@@ -12,6 +12,8 @@ import { Check, ArrowRight, ArrowLeft, Mail, Upload, Briefcase, Code, Video, Loa
 import { useRouter } from "@/i18n/routing"
 import { AuthModal } from "@/components/auth-modal"
 
+export const dynamic = 'force-dynamic'
+
 const steps = ["邀请码", "角色选择", "填写需求", "生成方案"]
 
 const roleOptions = [
