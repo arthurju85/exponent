@@ -7,7 +7,14 @@
       "Bash(pkill -f \"next dev\")",
       "Bash(git commit:*)",
       "Bash(ls -la /Users/arthur/Apps/Projects/Exponent/PRD*.md)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(ls -la /Users/arthur/Apps/Projects/Exponent/app/[locale]/onboarding/)",
+      "Bash(ls -la /Users/arthur/Apps/Projects/Exponent/app/[locale]/genesis/)",
+      "Bash(ls /Users/arthur/Apps/Projects/Exponent/app/[locale]/genesis/)",
+      "Bash(ls -la /Users/arthur/Apps/Projects/Exponent/middleware.ts*)",
+      "Bash(ls -la app/*.tsx)",
+      "Bash(ls -la app/[locale]/)",
+      "Bash(xargs -r rm -rf)"
     ]
   }
 }

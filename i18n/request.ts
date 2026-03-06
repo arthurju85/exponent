@@ -5,11 +5,16 @@ import { Locale, defaultLocale, locales } from '@/lib/i18n/config';
 const COOKIE_NAME = 'NEXT_LOCALE';
 
 async function getUserLocale(): Promise<Locale> {
-  const cookieStore = await cookies();
-  const locale = cookieStore.get(COOKIE_NAME)?.value;
+  try {
+    const cookieStore = await cookies();
+    const locale = cookieStore.get(COOKIE_NAME)?.value;
 
-  if (locale && locales.includes(locale as Locale)) {
-    return locale as Locale;
+    if (locale && locales.includes(locale as Locale)) {
+      return locale as Locale;
+    }
+  } catch {
+    // During static generation, cookies() will throw
+    // Return default locale in this case
   }
 
   return defaultLocale;
