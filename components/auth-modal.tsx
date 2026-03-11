@@ -149,12 +149,12 @@ export function AuthModal({ open, onOpenChange, onSuccess }: AuthModalProps) {
               </Button>
               <Button
                 variant="outline"
-                className="w-full h-11 relative"
-                onClick={handleWalletConnect}
+                className="w-full h-11"
+                onClick={() => setStep('email-form')}
                 disabled={isLoading}
               >
-                <Wallet className="mr-2 h-5 w-5" />
-                Connect Wallet
+                <Mail className="mr-2 h-5 w-5" />
+                Email
               </Button>
               <div className="relative my-6">
                 <div className="absolute inset-0 flex items-center">
@@ -168,12 +168,12 @@ export function AuthModal({ open, onOpenChange, onSuccess }: AuthModalProps) {
               </div>
               <Button
                 variant="outline"
-                className="w-full h-11"
-                onClick={() => setStep('email-form')}
+                className="w-full h-11 relative"
+                onClick={handleWalletConnect}
                 disabled={isLoading}
               >
-                <Mail className="mr-2 h-5 w-5" />
-                Email
+                <Wallet className="mr-2 h-5 w-5" />
+                Connect Wallet
               </Button>
             </div>
           )}

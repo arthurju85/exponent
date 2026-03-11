@@ -14,7 +14,10 @@
       "Bash(ls -la /Users/arthur/Apps/Projects/Exponent/middleware.ts*)",
       "Bash(ls -la app/*.tsx)",
       "Bash(ls -la app/[locale]/)",
-      "Bash(xargs -r rm -rf)"
+      "Bash(xargs -r rm -rf)",
+      "Bash(LC_ALL=C sed -i '' 's/[^[:ascii:]]//g' 'app/[locale]/onboarding/client.tsx')",
+      "Bash(sed -i 's/[^[:ascii:]]//g' 'app/[locale]/onboarding/client.tsx')",
+      "Bash(pnpm dev)"
     ]
   }
 }

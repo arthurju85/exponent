@@ -138,15 +138,27 @@
     "daysLeft": "剩餘天數",
     "investors": "投資者",
     "status": {
-      "subscribing": "Subscribing",
-      "graduated": "Graduated"
+      "preparing": "籌備中",
+      "pending_review": "審核中",
+      "cornerstone": "基石輪",
+      "public": "公開募集",
+      "coming": "即將上市",
+      "listed": "已上市",
+      "failed": "募集失敗",
+      "preparingDesc": "項目正在籌備中，暫不可見",
+      "pending_reviewDesc": "人工審核中（預計 24-48 小時）",
+      "cornerstoneDesc": "僅邀請碼持有者可投資",
+      "publicDesc": "所有人可投資",
+      "comingDesc": "募集完成，等待上市",
+      "listedDesc": "可交易",
+      "failedDesc": "募集失敗，資金原路退回"
     },
     "preview": {
       "title": "Join the First Cohort",
       "description": "Exponent is seeking ambitious super-individuals. If you need funding to grow your business and are willing to embrace a productivity-anchored value system, we look forward to partnering with you",
       "cta": "Apply for Beta Access",
-      "fundingRange": "Est. Funding",
-      "eta": "Est. Launch",
+      "fundingRange": "預計募集",
+      "eta": "預計上線",
       "footnote": "*Projects shown are in preparation under an invite-only system. Official investment channels will open after product launch."
     }
   },

@@ -125,6 +125,22 @@
     "progress": "募集进度",
     "daysLeft": "剩余天数",
     "investors": "投资者",
+    "status": {
+      "preparing": "筹备中",
+      "pending_review": "审核中",
+      "cornerstone": "基石轮",
+      "public": "公开募集",
+      "coming": "即将上市",
+      "listed": "已上市",
+      "failed": "募集失败",
+      "preparingDesc": "项目正在筹备中，暂不可见",
+      "pending_reviewDesc": "人工审核中（预计 24-48 小时）",
+      "cornerstoneDesc": "仅邀请码持有者可投资",
+      "publicDesc": "所有人可投资",
+      "comingDesc": "募集完成，等待上市",
+      "listedDesc": "可交易",
+      "failedDesc": "募集失败，资金原路退回"
+    },
     "preview": {
       "title": "成为首批入驻者",
       "description": "Exponent 正在寻找有野心的超级个体。如果你需要资金支持业务增长，同时愿意接受生产力锚定的价值体系，我们期待与你合作",

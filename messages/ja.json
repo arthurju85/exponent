@@ -138,8 +138,20 @@
     "daysLeft": "残り日数",
     "investors": "投資家",
     "status": {
-      "subscribing": "購読中",
-      "graduated": "卒業済み"
+      "preparing": "準備中",
+      "pending_review": "審査中",
+      "cornerstone": "基盤ラウンド",
+      "public": "公開募集",
+      "coming": "上場予定",
+      "listed": "上場済み",
+      "failed": "募集失敗",
+      "preparingDesc": "プロジェクトは準備中です、現在非表示",
+      "pending_reviewDesc": "手動審査中（24-48 時間）",
+      "cornerstoneDesc": "招待コード持有者のみ投資可能",
+      "publicDesc": "誰でも投資可能",
+      "comingDesc": "募集完了、上場待ち",
+      "listedDesc": "取引可能",
+      "failedDesc": "募集失敗、資金は返金されます"
     },
     "preview": {
       "title": "第一陣に参加",

@@ -128,6 +128,29 @@
       "subscribing": "Subscribing",
       "graduated": "Graduated"
     },
+    "exploreMore": "Explore more",
+    "status": {
+      "preparing": "Preparing",
+      "pending_review": "Under Review",
+      "cornerstone": "Cornerstone Round",
+      "public": "Public Offering",
+      "coming": "Coming Soon",
+      "listed": "Listed",
+      "failed": "Failed",
+      "preparingDesc": "Project is being prepared, not yet visible",
+      "pending_reviewDesc": "Under manual review (24-48 hours)",
+      "cornerstoneDesc": "Invitation-only investment round",
+      "publicDesc": "Open for public investment",
+      "comingDesc": "Fundraising complete, awaiting listing",
+      "listedDesc": "Trading available",
+      "failedDesc": "Fundraising failed, funds returned"
+    },
+    "time": {
+      "q3_2026": "Q3 2026",
+      "july_2026": "July 2026",
+      "june_2026": "June 2026",
+      "may_2026": "May 2026"
+    },
     "preview": {
       "title": "Join the First Cohort",
       "description": "Exponent is seeking ambitious super-individuals. If you need funding to grow your business and are willing to embrace a productivity-anchored value system, we look forward to partnering with you",
